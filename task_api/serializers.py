@@ -2,11 +2,11 @@ from rest_framework import serializers
 from .models import Task
 
 
-CHOICE_SITUACAO =  [('nova','nova'),
-                    ('em andamento','em andamento'),
-                    ('pendente', 'pendente'),
-                    ('resolvida','resolvida'),
-                    ('cancelada','cancelada')]
+CHOICE_SITUACAO =  [('Nova','Nova'),
+                    ('Em andamento','Em andamento'),
+                    ('Pendente', 'Pendente'),
+                    ('Resolvida','Resolvida'),
+                    ('Cancelada','Cancelada')]
 
 class TasksSerializer(serializers.ModelSerializer):
 
