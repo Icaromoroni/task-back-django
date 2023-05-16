@@ -1,4 +1,5 @@
 venv
-*__pycache__
-migrations/
+*mysite/__pycache__/
+*task_api/__pycache__/
+*task_api/migrations/
 .env

@@ -60,7 +60,6 @@ class ListSituacaoNivelPrioridade(generics.ListAPIView):
     permission_classes = [IsAuthenticated]
 
     serializer_class = TasksSerializer
-    print(1)
     
     def get_queryset(self):
 
